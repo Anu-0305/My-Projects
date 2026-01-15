@@ -52,7 +52,7 @@ def  calculate(user_input):
     save_to_history(user_input,result)
 
 def main():
-    print('-----SIMPLE CALCULATOR(type history, clear or exit)')
+    print('----- my SIMPLE CALCULATOR(type history, clear or exit)')
     while True:
         user_input = input("enter calculation :( + - * /) or command (history, clear, exit) : ")
         if user_input == 'exit':
